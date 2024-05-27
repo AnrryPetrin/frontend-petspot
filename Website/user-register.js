@@ -35,9 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
       telefone,
       newsletterCheck,
     };
-
     
-      const response = await fetch("http://localhost:8080/petspot/register", {
+      const response = await fetch("https://petspot-api.azurewebsites.net/petspot/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
